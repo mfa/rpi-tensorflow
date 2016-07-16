@@ -1,5 +1,5 @@
 #Tensorflow on Raspberry Pi 2 using Python 3 kernel
-[![Docker Pulls](https://img.shields.io/docker/pulls/philipz/rpi-tensorflow.svg?maxAge=2592000)](https://hub.docker.com/r/philipz/rpi-tensorflow/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/mfandreas/rpi-tensorflow-py3.svg?maxAge=2592000)](https://hub.docker.com/r/mfandreas/rpi-tensorflow-py3/)
 
 ##Reference
 1. [TensorFlow Offical Dockerfile](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/docker/Dockerfile)
@@ -8,9 +8,9 @@
 4. [Building ARM containers on any x86 machine, even  DockerHub](https://resin.io/blog/building-arm-containers-on-any-x86-machine-even-dockerhub/)
 
 ## Use
-Just on RPi 2 install Docker, and docker pull philipz/rpi-tensorflow. And......
+Just on RPi 2 install Docker, and docker pull mfandreas/rpi-tensorflow-py3. And......
 
-`docker run -d -p 8888:8888 mfandreas/rpi-tensorflow`
+`docker run -d -p 8888:8888 mfandreas/rpi-tensorflow-py3`
 
 Open browser, http://localhost:8888/
 
