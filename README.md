@@ -1,4 +1,4 @@
-#Tensorflow on Raspberry Pi 2
+#Tensorflow on Raspberry Pi 2 using Python 3 kernel
 [![Docker Pulls](https://img.shields.io/docker/pulls/philipz/rpi-tensorflow.svg?maxAge=2592000)](https://hub.docker.com/r/philipz/rpi-tensorflow/)
 
 ##Reference
@@ -10,7 +10,7 @@
 ## Use
 Just on RPi 2 install Docker, and docker pull philipz/rpi-tensorflow. And......
 
-`docker run -d -p 8888:8888 philipz/rpi-tensorflow`
+`docker run -d -p 8888:8888 mfandreas/rpi-tensorflow`
 
 Open browser, http://localhost:8888/
 
