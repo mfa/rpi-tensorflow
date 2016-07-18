@@ -7,6 +7,7 @@ RUN [ "cross-build-start" ]
 ENV LC_ALL=C.UTF-8
 RUN apt-get update -y && apt-get install -y python3-pip python3-dev wget vim gcc g++ gfortran libatlas-base-dev cython3 \
 	libfreetype6-dev libpng12-dev pkg-config python3-scipy
+RUN pip3 install -U numpy
 RUN wget --no-check-certificate https://github.com/samjabrahams/tensorflow-on-raspberry-pi/raw/master/bin/tensorflow-0.9.0-py3-none-any.whl && pip3 install tensorflow-0.9.0-py3-none-any.whl && rm tensorflow-0.9.0-py3-none-any.whl
 
 RUN pip3 install scikit-learn
